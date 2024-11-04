@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Delhivery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      color: #fff;
+    }
+
+    header {
+      background-color: #111;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ff0000;
+      text-decoration: none;
+      margin-left: 50px;
+    }
+
+    nav {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      margin-right: 400px;
+    }
+
+    nav li {
+      margin-left: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .service-updates {
+      display: flex;
+      align-items: center;
+      margin-top: 15px;
+    }
+
+    .service-updates .icon {
+      width: 10px;
+      height: 10px;
+      background-color: #ff0000;
+      margin-right: 10px;
+    }
+
+    .service-updates p {
+      margin: 30;
+    }
+
+    .hero {
+      position: relative;
+      height: 400px;
+      background-image: url("https://images.unsplash.com/photo-1534947084656-031b70019f0e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(250, 248, 248, 0);
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      font-weight: bold;
+      color: #ffffff;
+      text-align: left;
+      margin-right: 700px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #fff;
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .tracking-form {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      width: 400px;
+      margin-left: 450px;
+    }
+
+    .tracking-form h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #111;
+    }
+
+    .tracking-form input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .tracking-form button {
+      background-color: #ff0000;
+      color: #fff;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .tracking-form button:hover {
+      background-color: #c00;
+    }
+
+    .tracking-form .options {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .tracking-form .options button {
+      background-color: #eee;
+      color: #333;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .tracking-form .options button:hover {
+      background-color: #ddd;
+    }
+
+    .app-links {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .app-links a {
+      margin: 0 10px;
+    }
+
+    .footer {
+      background-color: #111;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="#" class="logo">COURIER KARO</a>
+      <nav>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Solutions</a></li>
+        <li><a href="#">Partner</a></li>
+        <li><a href="#">Company</a></li>
+        <li><a href="#">Track</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#" class="ship-now">Ship Now</a></li>
+      </nav>
+    </div>
+  </header>
+  <div class="service-updates">
+    <div class="icon"></div>
+    <p>Please do not transfer money to payment links that are not shared from Delhivery's official accounts</p>
+    <div class="icon"></div>
+    <p>Delhivery does not require</p>
+  </div>
+  <div class="hero">
+    <div class="overlay"></div>
+    <h1>We are India's largest fully integrated <br> <span style="color: rgb(239, 48, 83);">logistics services</span>provider</h1>
+    <!-- <p>Express Parcel PTL FTL Cross Border Supply Chain</p> -->
+  </div>
+  <div class="tracking-form">
+    <h2>Track order</h2>
+    <div class="options">
+      <button>Mobile</button>
+      <button>AWB</button>
+      <button>Order Id</button>
+      <button>LRN</button>
+    </div>
+    <input type="text" placeholder="Enter your mobile number">
+    <button>Get OTP</button>
+  </div>
+  <!-- <div class="app-links">
+     <a href="#">
+      <img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play">
+    </a> -->
+    <!-- <a href="#">
+      <img src="https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/4b/42/6c/4b426c3e-033d-9182-969d-5449eb818079/AppStore_Badge_US-UK_RGB_blk-092917-001.png" alt="Download on the App Store">
+    </a> -->
+  <!-- </div> -->
+  <!-- <footer class="footer">
+    <p>&copy; 2023 Delhivery. All rights reserved.</p>
+  </footer> --> 
+</body>
+</html>

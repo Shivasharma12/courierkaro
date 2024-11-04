@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Order</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .option-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        .option-buttons button {
+            background-color: #eee;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .option-buttons button:hover {
+            background-color: #ddd;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .get-otp-button {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .get-otp-button:hover {
+            background-color: #0069d9;
+        }
+
+        .app-download {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .app-download a {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        .app-download a:hover {
+            background-color: #ddd;
+        }
+
+        .app-download img {
+            width: 20px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Track your order through</h2>
+
+        <div class="option-buttons">
+            <button>Mobile</button>
+            <button>AWB</button>
+            <button>Order Id</button>
+            <button>LRN</button>
+        </div>
+
+        <input type="text" placeholder="Enter your mobile number">
+
+        <button class="get-otp-button">Get OTP</button>
+
+        <div class="app-download">
+            <a href="#">
+                <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
+                Get it on Google Play
+            </a>
+            <a href="#">
+                <img src="https://developer.apple.com/app-store/marketing/guidelines/images/app-store-badge.svg" alt="Download on the App Store">
+                Download on the App Store
+            </a>
+        </div>
+    </div>
+</body>
+</html>

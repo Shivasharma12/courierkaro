@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfafa;
+    color: #fff;
+  }
+    .container {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: left;
+      }
+  
+      .logo {
+        position: fixed;
+        display: flex;
+        list-style: none;
+        font-size: 30px;
+        font-weight: bold;
+        color: #f20c0c;
+        margin-left: 5%;
+      }
+  
+      nav {
+        font-size: 15px;
+        position: fixed;
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin-left: 50%;
+        margin-top: 20px;
+        
+      }
+  
+      nav li,a {
+        margin-left: 20px;
+        color: #141313;
+        text-decoration: none;
+      }
+    #ship{
+      margin-top: 15px;
+      background-color:rgb(237, 5, 5);
+      height: 30px;
+      width: 120px;
+      border-radius: 20px;
+      color: rgb(11, 11, 11);
+      font-size: 20px;
+      cursor: pointer;
+      text-align: center;
+      position: fixed;
+      display: flex;
+      list-style: none;
+      font-weight: bold;
+      margin-left: 90%;
+		}
+
+    #about1{
+        margin-top: 80px;
+        font-size: 40px;
+        text-align: center;
+        color: #0b0b0b;
+    }
+    #about2{
+        margin-right: 7%;
+        margin-left: 50%;
+        font-size: 20px;
+        color: #151414;
+    }
+    #get{
+      background-color:rgb(237, 5, 5);
+      height: 40px;
+      width: 150px;
+       color: rgb(16, 14, 14);
+       font-size: 20px;
+       cursor: pointer;
+    }
+    .about-img{
+      margin-top: 50x;
+      margin-left: 120px;
+      height: 200px;
+      width: 450px;
+    }
+    
+  
